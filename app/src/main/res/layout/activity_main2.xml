@@ -11,10 +11,10 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#EFDBDB"
+
         android:letterSpacing="0.2"
         android:text="Unit Converter"
-        android:textColor="#090000"
+        android:textColor="#F4ECEC"
         android:textSize="48sp"
         android:elevation="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -28,9 +28,9 @@
         android:id="@+id/txt2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#EFEFEF"
+
         android:text="Enter here the Weight"
-        android:textColor="#1B0A0A"
+        android:textColor="#F3EFEF"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,7 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginRight="25dp"
-
+        android:textColorHint="@color/white"
         android:hint="Enter the weight in kg"
         android:inputType="number"
         android:minHeight="48dp"
@@ -62,7 +62,7 @@
         android:layout_height="wrap_content"
         android:text="Value of Pounds"
 
-        android:textColor="#322A2A"
+        android:textColor="#E8DFDF"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -75,9 +75,8 @@
         android:id="@+id/Value4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
+        android:textColor="@color/white"
         android:textSize="34sp"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.128"
@@ -89,11 +88,15 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_500"
         android:text="Convert"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Value4" />
+        app:layout_constraintTop_toBottomOf="@+id/Value4"
+        app:layout_constraintVertical_bias="0.207" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
